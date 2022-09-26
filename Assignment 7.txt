@@ -1,0 +1,20 @@
+1)The try statement allows you to define a block of code to be tested for errors while it is being executed. The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+2)Try and Except statement is used to handle these errors within our code in Python. The try block is used to check some code for errors i.e the code inside the try block will execute when there is no error in the program. Whereas the code inside the except block will execute whenever the program encounters some error in the preceding try block.
+try:
+    # Some Code
+except:
+    # Executed if error in the
+    # try block
+You can also use the else clause on the try-except block which must be present after all the except clauses. The code enters the else block only if the try clause does not raise an exception.
+try:
+    # Some Code
+except:
+    # Executed if error in the
+    # try block
+else:
+    # execute if no exception
+3)Python raise Keyword is used to raise exceptions or errors. The raise keyword raises an error and stops the control flow of the program. It is used to bring up the current exception in an exception handler so that it can be handled further up the call stack.
+raise  {name_of_ the_ exception_class}
+4)Assert statement has a condition and if the condition is not satisfied the program will stop and give AssertionError . assert statement can also have a condition and a optional error message. If the condition is not satisfied assert stops the program and gives AssertionError along with the error message.
+5)The advantage of using a with statement is that it is guaranteed to close the file no matter how the nested block exits. If an exception occurs before the end of the block, it will close the file before the exception is caught by an outer exception handler.
+ 
